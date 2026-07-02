@@ -1,0 +1,144 @@
+{
+  "regime": "old",
+  "financial_year": "2024-25",
+  "standard_deduction": 50000,
+  "rebate_87A": {
+    "income_limit": 500000,
+    "max_rebate": 12500
+  },
+  "cess_percentage": 0.04,
+  "slabs": [
+    {
+      "min": 0,
+      "max": 250000,
+      "rate": 0.0
+    },
+    {
+      "min": 250000,
+      "max": 500000,
+      "rate": 0.05
+    },
+    {
+      "min": 500000,
+      "max": 1000000,
+      "rate": 0.2
+    },
+    {
+      "min": 1000000,
+      "max": null,
+      "rate": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "code": "80C",
+      "name": "PPF, ELSS, EPF, LIC, NSC, tuition fees, home loan principal",
+      "limit_amount": 150000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "96043965-92b0-42a4-a156-6adfd8c22145"
+    },
+    {
+      "code": "80D_self",
+      "name": "Health Insurance — self, spouse, children (below 60)",
+      "limit_amount": 25000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "137b60be-e9dd-4301-b861-7e27101318f2"
+    },
+    {
+      "code": "80D_self_senior",
+      "name": "Health Insurance — self, spouse, children (senior citizen)",
+      "limit_amount": 50000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": "self_senior_citizen",
+      "source_chunk_id": "137b60be-e9dd-4301-b861-7e27101318f2"
+    },
+    {
+      "code": "80D_parents",
+      "name": "Health Insurance — parents (below 60)",
+      "limit_amount": 25000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "137b60be-e9dd-4301-b861-7e27101318f2"
+    },
+    {
+      "code": "80D_parents_senior",
+      "name": "Health Insurance — parents (senior citizen, 60+)",
+      "limit_amount": 50000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": "parents_senior_citizen",
+      "source_chunk_id": "137b60be-e9dd-4301-b861-7e27101318f2"
+    },
+    {
+      "code": "80CCD(1B)",
+      "name": "NPS Additional Contribution (self, over and above 80C)",
+      "limit_amount": 50000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "137b60be-e9dd-4301-b861-7e27101318f2"
+    },
+    {
+      "code": "24(b)",
+      "name": "Home Loan Interest — self-occupied property",
+      "limit_amount": 200000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "435ae836-8fff-4c85-ab6e-d36ffaa326b6"
+    },
+    {
+      "code": "80E",
+      "name": "Education Loan Interest (no cap, up to 8 years)",
+      "limit_amount": null,
+      "limit_type": "no_cap",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "96043965-92b0-42a4-a156-6adfd8c22145"
+    },
+    {
+      "code": "80TTA",
+      "name": "Savings Account Interest (non-senior citizens)",
+      "limit_amount": 10000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "7c34ecdb-f054-4285-9187-bab9cd155440"
+    },
+    {
+      "code": "80G",
+      "name": "Donations to Charitable Funds",
+      "limit_amount": null,
+      "limit_type": "no_cap",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": null,
+      "source_chunk_id": "96043965-92b0-42a4-a156-6adfd8c22145"
+    }
+  ]
+}

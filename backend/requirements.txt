@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pymupdf
+pdfplumber
+python-dotenv
+groq
+langchain-text-splitters

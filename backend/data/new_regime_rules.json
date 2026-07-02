@@ -1,0 +1,123 @@
+{
+  "regime": "new",
+  "financial_year": "2025-26",
+  "assessment_year": "2026-27",
+  "standard_deduction": 75000,
+  "rebate_87A": {
+    "income_limit": 700000,
+    "max_rebate": 25000
+  },
+  "cess_percentage": 0.04,
+  "slabs": [
+    {
+      "min": 0,
+      "max": 400000,
+      "rate": 0.00
+    },
+    {
+      "min": 400000,
+      "max": 800000,
+      "rate": 0.05
+    },
+    {
+      "min": 800000,
+      "max": 1200000,
+      "rate": 0.10
+    },
+    {
+      "min": 1200000,
+      "max": 1600000,
+      "rate": 0.15
+    },
+    {
+      "min": 1600000,
+      "max": 2000000,
+      "rate": 0.20
+    },
+    {
+      "min": 2000000,
+      "max": 2400000,
+      "rate": 0.25
+    },
+    {
+      "min": 2400000,
+      "max": null,
+      "rate": 0.30
+    }
+  ],
+  "sections": [
+    {
+      "code": "80CCD(2)_private",
+      "name": "Employer NPS Contribution — private sector employees (10% of basic salary)",
+      "limit_amount": null,
+      "limit_type": "percentage_of_basic",
+      "percentage": 0.10,
+      "applicable_regimes": [
+        "new"
+      ],
+      "condition": "private_sector",
+      "note": "Only Chapter VI-A deduction available under new regime for private sector. Employer contributes to NPS Tier-I on behalf of employee.",
+      "source_chunk_id": "f2f641a5-0ebe-4e63-95d8-960c087b3c7a"
+    },
+    {
+      "code": "80CCD(2)_govt",
+      "name": "Employer NPS Contribution — government employees (14% of basic salary)",
+      "limit_amount": null,
+      "limit_type": "percentage_of_basic",
+      "percentage": 0.14,
+      "applicable_regimes": [
+        "new"
+      ],
+      "condition": "government_employee",
+      "note": "Only Chapter VI-A deduction available under new regime for govt employees. Limit is 14% of basic salary.",
+      "source_chunk_id": "f2f641a5-0ebe-4e63-95d8-960c087b3c7a"
+    }
+  ],
+  "deductions_not_available": [
+    {
+      "code": "80C",
+      "name": "PPF, ELSS, EPF, LIC, NSC, tuition fees, home loan principal",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "80CCD(1B)",
+      "name": "NPS additional self contribution",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "80D",
+      "name": "Health insurance premium",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "24(b)",
+      "name": "Home loan interest (self-occupied)",
+      "reason": "Not available under new regime for self-occupied property"
+    },
+    {
+      "code": "80E",
+      "name": "Education loan interest",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "80TTA",
+      "name": "Savings account interest",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "80G",
+      "name": "Donations to charitable funds",
+      "reason": "Chapter VI-A deductions not available under new regime"
+    },
+    {
+      "code": "HRA",
+      "name": "House Rent Allowance exemption u/s 10(13A)",
+      "reason": "HRA exemption not available under new regime"
+    },
+    {
+      "code": "LTA",
+      "name": "Leave Travel Allowance u/s 10(5)",
+      "reason": "LTA exemption not available under new regime"
+    }
+  ]
+}

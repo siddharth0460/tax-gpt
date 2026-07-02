@@ -1,0 +1,16 @@
+# Environments
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data (generated at runtime)
+data/cache/
+data/index/
+
+# OS
+.DS_Store
