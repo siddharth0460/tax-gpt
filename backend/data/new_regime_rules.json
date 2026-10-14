@@ -4,8 +4,8 @@
   "assessment_year": "2026-27",
   "standard_deduction": 75000,
   "rebate_87A": {
-    "income_limit": 700000,
-    "max_rebate": 25000
+    "income_limit": 1200000,
+    "max_rebate": 60000
   },
   "cess_percentage": 0.04,
   "slabs": [
@@ -53,6 +53,7 @@
       "limit_type": "percentage_of_basic",
       "percentage": 0.10,
       "applicable_regimes": [
+        "old",
         "new"
       ],
       "condition": "private_sector",
@@ -66,6 +67,7 @@
       "limit_type": "percentage_of_basic",
       "percentage": 0.14,
       "applicable_regimes": [
+        "old",
         "new"
       ],
       "condition": "government_employee",

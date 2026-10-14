@@ -1,6 +1,7 @@
 {
   "regime": "old",
-  "financial_year": "2024-25",
+  "financial_year": "2025-26",
+  "assessment_year": "2026-27",
   "standard_deduction": 50000,
   "rebate_87A": {
     "income_limit": 500000,
@@ -139,6 +140,40 @@
       ],
       "condition": null,
       "source_chunk_id": "96043965-92b0-42a4-a156-6adfd8c22145"
+    },
+    {
+      "code": "80TTB",
+      "name": "Interest Income — senior citizen (Sec 80TTB)",
+      "limit_amount": 50000,
+      "limit_type": "fixed",
+      "applicable_regimes": [
+        "old"
+      ],
+      "condition": "self_senior_citizen"
+    },
+    {
+      "code": "80CCD(2)_private",
+      "name": "Employer NPS Contribution — private sector employees (10% of basic salary)",
+      "limit_amount": null,
+      "limit_type": "percentage_of_basic",
+      "percentage": 0.10,
+      "applicable_regimes": [
+        "old",
+        "new"
+      ],
+      "condition": "private_sector"
+    },
+    {
+      "code": "80CCD(2)_govt",
+      "name": "Employer NPS Contribution — government employees (14% of basic salary)",
+      "limit_amount": null,
+      "limit_type": "percentage_of_basic",
+      "percentage": 0.14,
+      "applicable_regimes": [
+        "old",
+        "new"
+      ],
+      "condition": "government_employee"
     }
   ]
 }

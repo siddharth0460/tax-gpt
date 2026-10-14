@@ -11,6 +11,11 @@ __pycache__/
 # Data (generated at runtime)
 data/cache/
 data/index/
+data/users.json
+data/history.json
+
+# Allow example env
+!.env.example
 
 # OS
 .DS_Store

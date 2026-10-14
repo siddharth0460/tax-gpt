@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from app.api.routes import tax_saver
+from app.api.routes import tax_saver, auth
 
 @app.get("/health")
 def health_check():
@@ -24,3 +24,4 @@ def health_check():
 
 
 app.include_router(tax_saver.router)
+app.include_router(auth.router)
